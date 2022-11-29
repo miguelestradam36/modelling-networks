@@ -6,3 +6,5 @@ random2
 pytest
 matplotlib
 jupyterlab
+requests
+openpyxl
