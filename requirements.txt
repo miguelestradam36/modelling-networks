@@ -4,3 +4,5 @@ pandas
 networkx
 random2
 pytest
+"importlib-metada"
+importlib
