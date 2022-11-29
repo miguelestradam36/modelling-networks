@@ -2,6 +2,8 @@
 
 Python Networking project tested with the help of `Github Actions`.
 
+![](docs/img/share.png)
+
 ## Documentation
 
 Project explained in: [Documentation](docs/README.md)
