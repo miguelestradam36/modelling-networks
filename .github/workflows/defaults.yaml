@@ -29,5 +29,7 @@ jobs:
         run: python -m pip install jupyter nbconvert nbformat
       - name: Run Import Test
         run: pytest tests/
-      - name: Update analysis notebook
-        run: jupyter nbconvert --to notebook --execute task1.ipynb --output task1.ipynb
+      - name: Run Jupyter Script and Update
+        run: |
+          jupyter nbconvert --to script weather_locations.ipynb
+          python weather_locations.py
