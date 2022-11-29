@@ -1,0 +1,5 @@
+jupyter
+numpy
+pandas
+networkx
+random2
