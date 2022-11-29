@@ -3,5 +3,4 @@ numpy
 pandas
 networkx
 random2
-importlib
 pytest
