@@ -33,10 +33,3 @@ jobs:
         run: |
           jupyter nbconvert --to script task1.ipynb
           python task1.py
-      - name: Commit and Push Changes
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add .
-          git commit -m "Updated plot on `date` with GitHub Actions"
-          git push origin main
